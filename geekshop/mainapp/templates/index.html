@@ -1,17 +1,10 @@
 {% extends 'base.html' %}
 {% load staticfiles %}
-{% block title %}
-	Главная -{{ block.super}}
-{% endblock %}
 {% block menu %}
 	<div class="slider">
 		<div class="header clearfix">
 			<a href="index.html" class="logo"></a>
-			<ul class="menu">
-				<li><a href="/" class="active">домой</a></li>
-				<li><a href="/products/">продукты</a></li>
-				<li><a href="/contact/">контакты</a></li>
-			</ul>
+			{% include 'includes/inc_menu.html' %}
 			<a href="#" class="search"></a>
 		</div>
 		<div class="text-slider">
