@@ -1,8 +1,15 @@
 from django.shortcuts import render
 
 # Create your views here.
+from mainapp.models import Product
+
+
 def main(request):
-    content = { 'title' : {'name' : "Главная"}}
+    products_list = Product.objects.all()[:4]
+    content = {
+        'title' : {'name' : "Главная"},
+        'products': products_list
+    }
     return render(request, 'index.html', content)
 
 def contact(request):

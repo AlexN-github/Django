@@ -14,8 +14,11 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 
+from django.conf.urls.static import static
 from django.urls import path
 from django.contrib import admin
+
+from geekshop import settings
 from mainapp import views
 
 urlpatterns = [
@@ -27,9 +30,11 @@ urlpatterns = [
     path('products/office/', views.products_office, name='products_office'),
     path('products/modern/', views.products_modern, name='products_modern'),
     path('products/classic/', views.products_classic, name='products_classic'),
-    #    path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls),
 ]
 
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 
 
