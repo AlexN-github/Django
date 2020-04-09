@@ -15,7 +15,7 @@ Including another URLconf
 """
 
 from django.conf.urls.static import static
-from django.urls import path
+from django.urls import path, include
 from django.contrib import admin
 
 from geekshop import settings
@@ -23,14 +23,15 @@ from mainapp import views
 
 urlpatterns = [
     path('', views.main, name='main'),
-    path('products/', views.products, name='products'),
-    path('contact/', views.contact, name='contact'),
-    path('products/all/', views.products_all, name='products_all'),
-    path('products/home/', views.products_home, name='products_home'),
-    path('products/office/', views.products_office, name='products_office'),
-    path('products/modern/', views.products_modern, name='products_modern'),
-    path('products/classic/', views.products_classic, name='products_classic'),
     path('admin/', admin.site.urls),
+    path('contact/', views.contact, name='contact'),
+    path('products/', include('mainapp.urls', namespace='products')),
+    #path('products/', views.products, name='products'),
+    #path('products/all/', views.products_all, name='products_all'),
+    #path('products/home/', views.products_home, name='products_home'),
+    #path('products/office/', views.products_office, name='products_office'),
+    #path('products/modern/', views.products_modern, name='products_modern'),
+    #path('products/classic/', views.products_classic, name='products_classic'),
 ]
 
 if settings.DEBUG:

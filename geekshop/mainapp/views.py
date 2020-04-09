@@ -16,17 +16,20 @@ def contact(request):
     content = { 'title' : {'name' : "Контакты"}}
     return render(request, 'contact.html', content)
 
-links_menu = [
-    {'href': 'products_all', 'name': 'все'},
-    {'href': 'products_home', 'name': 'дом'},
-    {'href': 'products_office', 'name': 'офис'},
-    {'href': 'products_modern', 'name': 'модерн'},
-    {'href': 'products_classic', 'name': 'классика'},
-]
+#links_menu = [
+#    {'href': 'products_all', 'name': 'все'},
+#    {'href': 'products_home', 'name': 'дом'},
+#    {'href': 'products_office', 'name': 'офис'},
+#    {'href': 'products_modern', 'name': 'модерн'},
+#    {'href': 'products_classic', 'name': 'классика'},
+#]
 content = {'title': {'name': "Продукты"},
-           'links_menu' : links_menu,
+           #'links_menu' : links_menu,
           }
-def products(request):
+def products(request,pk=None):
+    if pk:
+        product_item = Product.objects.get(pk=pk)
+        content['product'] = product_item
     return render(request, 'products.html', content)
 
 def products_all(request):
