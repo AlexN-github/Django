@@ -26,6 +26,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('contact/', views.contact, name='contact'),
     path('products/', include('mainapp.urls', namespace='products')),
+    path('auth/', include('authapp.urls', namespace='auth')),
     #path('products/', views.products, name='products'),
     #path('products/all/', views.products_all, name='products_all'),
     #path('products/home/', views.products_home, name='products_home'),
