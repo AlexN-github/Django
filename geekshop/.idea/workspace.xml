@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c4a2602-17a6-4d23-930f-0495eee31a2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authapp/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authapp/templates/authapp/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authapp/templates/authapp/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authapp/templates/authapp/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authapp/templates/authapp/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mainapp/json/categories.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mainapp/json/contact_location.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mainapp/json/products.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mainapp/management/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mainapp/management/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mainapp/management/commands/fill_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainapp/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/includes/inc_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/includes/inc_menu.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
