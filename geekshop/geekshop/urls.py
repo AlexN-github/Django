@@ -23,16 +23,13 @@ from mainapp import views
 
 urlpatterns = [
     path('', views.main, name='main'),
-    path('admin/', admin.site.urls),
     path('contact/', views.contact, name='contact'),
     path('products/', include('mainapp.urls', namespace='products')),
     path('auth/', include('authapp.urls', namespace='auth')),
-    #path('products/', views.products, name='products'),
-    #path('products/all/', views.products_all, name='products_all'),
-    #path('products/home/', views.products_home, name='products_home'),
-    #path('products/office/', views.products_office, name='products_office'),
-    #path('products/modern/', views.products_modern, name='products_modern'),
-    #path('products/classic/', views.products_classic, name='products_classic'),
+    path('basket/', include('basketapp.urls', namespace='basket')),
+
+    path('admin/', admin.site.urls),
+
 ]
 
 if settings.DEBUG:

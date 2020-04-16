@@ -20,3 +20,9 @@
 	</li>
 </ul>
 <a href="#" class="search"></a>
+<a href="{% url 'basket:view' %}" class="basket">
+	<span>
+		{% if basket %} {{ basket|length }} {% endif %}
+	</span>
+</a>
+

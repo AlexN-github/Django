@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c4a2602-17a6-4d23-930f-0495eee31a2a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/migrations/0001_initial.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/basketapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/includes/inc_categories_menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/products_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/templates/includes/inc_catalogies_menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/templates/includes/inc_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/includes/inc_menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
