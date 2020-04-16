@@ -1,0 +1,65 @@
+[
+  {
+    "category": "дом",
+    "name": "комфорт 1",
+    "image": "products_images/product-1.jpg",
+    "short_desc": "комфортный стул",
+    "description": "подойдет для просмотра фильмов",
+    "price": 2989.5,
+    "quantity": "17"
+  },
+  {
+    "category": "дом",
+    "name": "комфорт 2",
+    "image": "products_images/product-2.jpg",
+    "short_desc": "очень комфортный стул",
+    "description": "подойдет для общения с друзьями",
+    "price": 3687.2,
+    "quantity": "21"
+  },
+  {
+    "category": "дом",
+    "name": "люкс",
+    "image": "products_images/product-3.jpg",
+    "short_desc": "использованы премиальные материалы",
+    "description": "для тех, кто стремится к лучшему",
+    "price": 8157.99,
+    "quantity": "7"
+  },
+  {
+    "category": "офис",
+    "name": "стандарт",
+    "image": "products_images/product-4.jpg",
+    "short_desc": "универсальные решение",
+    "description": "подойдет для любого офиса",
+    "price": 1895.25,
+    "quantity": "27"
+  },
+  {
+    "category": "офис",
+    "name": "премиум",
+    "image": "products_images/product-5.jpg",
+    "short_desc": "стул для тел кто умеет ценить комфорт",
+    "description": "подойдет для всех ценителей комфорта",
+    "price": 18095.25,
+    "quantity": "5"
+  },
+  {
+    "category": "модерн",
+    "name": "стиль 1",
+    "image": "products_images/product-6.jpg",
+    "short_desc": "стильный стул",
+    "description": "ультрасовременный стул для современных людей",
+    "price": 2895.25,
+    "quantity": "15"
+  },
+  {
+    "category": "классика",
+    "name": "классика 1",
+    "image": "products_images/product-7.jpg",
+    "short_desc": "классический стул",
+    "description": "классический стул, который востребован всегда ",
+    "price": 1195.25,
+    "quantity": "12"
+  }
+]
