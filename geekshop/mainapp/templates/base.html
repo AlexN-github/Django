@@ -16,10 +16,13 @@
 </head>
 <body>
 	<div class="container">
-        {% block menu %}
-
-        {% endblock %}
-
+{% block menu %}
+		<div class="hero-white">
+			<div class="header clearfix">
+				{% include 'includes/inc_menu.html' %}
+			</div>
+		</div>
+{% endblock %}
         {% block content %}
 
         {% endblock %}
