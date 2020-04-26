@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c4a2602-17a6-4d23-930f-0495eee31a2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/adminapp/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adminapp/templates/adminapp/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adminapp/templates/adminapp/categories.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adminapp/templates/adminapp/includes/inc_menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adminapp/templates/adminapp/products.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adminapp/templates/adminapp/user_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adminapp/templates/adminapp/user_update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adminapp/templates/adminapp/users.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adminapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/management/commands/fill_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/management/commands/fill_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/includes/inc_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/includes/inc_menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/adminapp/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/adminapp/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
