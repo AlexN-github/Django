@@ -2,7 +2,7 @@ from django.contrib.auth.decorators import user_passes_test
 from django.http import HttpResponseRedirect
 from django.urls import reverse, reverse_lazy
 from django.utils.decorators import method_decorator
-from django.views.generic import ListView, CreateView, UpdateView
+from django.views.generic import ListView, CreateView, UpdateView, DeleteView, DetailView
 
 from adminapp.forms import ShopUserAdminEditForm, ProductEditForm
 from authapp.forms import ShopUserRegisterForm
@@ -89,18 +89,6 @@ def categories(request):
     return render(request, 'adminapp/categories.html', content)
 
 
-def category_create(request):
-    pass
-
-
-def category_update(request, pk):
-    pass
-
-
-def category_delete(request, pk):
-    pass
-
-
 def products(request, pk):
     title = 'админка/продукт'
 
@@ -116,12 +104,12 @@ def products(request, pk):
     return render(request, 'adminapp/products.html', content)
 
 
-def product_read(request, pk):
-    title = 'продукт/подробнее'
-    product = get_object_or_404(Product, pk=pk)
-    content = {'title': title, 'object': product, }
-
-    return render(request, 'adminapp/product_read.html', content)
+#def product_read(request, pk):
+#    title = 'продукт/подробнее'
+#    product = get_object_or_404(Product, pk=pk)
+#    content = {'title': title, 'object': product, }
+#
+#    return render(request, 'adminapp/product_read.html', content)
 
 
 def product_create(request, pk):
@@ -209,3 +197,21 @@ class ProductCategoryUpdateView(UpdateView):
         context['title'] = 'категории/редактирование'
 
         return context
+
+
+class ProductCategoryDeleteView(DeleteView):
+    model = ProductCategory
+    template_name = 'adminapp/category_delete.html'
+    success_url = reverse_lazy('admin:categories')
+
+    def delete(self, request, *args, **kwargs):
+        self.object = self.get_object()
+        self.object.is_active = False
+        self.object.save()
+
+        return HttpResponseRedirect(self.get_success_url())
+
+
+class ProductDetailView(DetailView):
+    model = Product
+    template_name = 'adminapp/product_read.html'
