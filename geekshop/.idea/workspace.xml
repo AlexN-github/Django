@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c4a2602-17a6-4d23-930f-0495eee31a2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/adminapp/templatetags/my_tags.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/adminapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/adminapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/adminapp/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminapp/templates/adminapp/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminapp/templates/adminapp/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminapp/templates/adminapp/users.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
