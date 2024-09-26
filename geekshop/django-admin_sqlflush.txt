@@ -1,0 +1,29 @@
+C:\PyProjects\Django\geekshop>django-admin sqlflush
+Traceback (most recent call last):
+  File "c:\program files (x86)\python37-32\lib\runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "c:\program files (x86)\python37-32\lib\runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "C:\Program Files (x86)\Python37-32\Scripts\django-admin.EXE\__main__.py", line 7, in <module>
+  File "c:\program files (x86)\python37-32\lib\site-packages\django\core\management\__init__.py", line 381, in execute_from_command_line
+    utility.execute()
+  File "c:\program files (x86)\python37-32\lib\site-packages\django\core\management\__init__.py", line 375, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "c:\program files (x86)\python37-32\lib\site-packages\django\core\management\base.py", line 323, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "c:\program files (x86)\python37-32\lib\site-packages\django\core\management\base.py", line 361, in execute
+    self.check()
+  File "c:\program files (x86)\python37-32\lib\site-packages\django\core\management\base.py", line 390, in check
+    include_deployment_checks=include_deployment_checks,
+  File "c:\program files (x86)\python37-32\lib\site-packages\django\core\management\base.py", line 377, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "c:\program files (x86)\python37-32\lib\site-packages\django\core\checks\registry.py", line 72, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "c:\program files (x86)\python37-32\lib\site-packages\django\core\checks\urls.py", line 100, in check_url_settings
+    value = getattr(settings, name)
+  File "c:\program files (x86)\python37-32\lib\site-packages\django\conf\__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "c:\program files (x86)\python37-32\lib\site-packages\django\conf\__init__.py", line 64, in _setup
+    % (desc, ENVIRONMENT_VARIABLE))
+django.core.exceptions.ImproperlyConfigured: Requested setting STATIC_URL, but settings are not configured. You must either define the environment variable DJ
+ANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.

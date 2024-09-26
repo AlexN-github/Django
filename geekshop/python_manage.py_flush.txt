@@ -1,0 +1,12 @@
+C:\PyProjects\Django\geekshop>python manage.py flush
+You have requested a flush of the database.
+This will IRREVERSIBLY DESTROY all data currently in the 'C:\\PyProjects\\Django\\geekshop\\db.sqlite3' database,
+and return each table to an empty state.
+Are you sure you want to do this?
+
+    Type 'yes' to continue, or 'no' to cancel: yes
+CommandError: Database C:\PyProjects\Django\geekshop\db.sqlite3 couldn't be flushed. Possible reasons:
+  * The database isn't running or isn't configured correctly.
+  * At least one of the expected database tables doesn't exist.
+  * The SQL was invalid.
+Hint: Look at the output of 'django-admin sqlflush'. That's the SQL this command wasn't able to run.
